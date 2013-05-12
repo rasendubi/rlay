@@ -13,7 +13,7 @@ SLOT="2"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND=""
+DEPEND="x11-libs/libX11"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/Sublime Text 2"
