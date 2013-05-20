@@ -6,11 +6,13 @@ EAPI=4
 
 DESCRIPTION="Sublime Text is a sophisticated text editor for code, markup and prose."
 HOMEPAGE="http://sublimetext.com/"
-SRC_URI="http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20${PV}%20x64.tar.bz2"
+SRC_URI="
+	x86?   ( http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20${PV}.tar.bz2 )
+	amd64? ( http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20${PV}%20x64.tar.bz2 )"
 
 LICENSE="EULA"
 SLOT="2"
-KEYWORDS="~amd64"
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 DEPEND="x11-libs/libX11"
