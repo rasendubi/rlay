@@ -1,0 +1,26 @@
+From b1be4df4aa5c6d6be5709b652ccecb105f4df906 Mon Sep 17 00:00:00 2001
+From: Alexey Shmalko <rasen.dubi@gmail.com>
+Date: Sun, 9 Jun 2013 21:39:13 +0300
+Subject: [PATCH] Add 1600x900 resolution
+
+---
+ vbetables-gen.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/vbetables-gen.c b/vbetables-gen.c
+index b55c2d1..d1ddcbe 100644
+--- a/vbetables-gen.c
++++ b/vbetables-gen.c
+@@ -85,6 +85,9 @@ ModeInfo modes[] = {
+ { 1920, 1080, 16                     , 0x190},
+ { 1920, 1080, 24                     , 0x191},
+ { 1920, 1080, 32                     , 0x192},
++{ 1600, 900, 16                      , 0x193},
++{ 1600, 900, 24                      , 0x194},
++{ 1600, 900, 32                      , 0x195},
+ { 0, },
+ };
+ 
+-- 
+1.8.2.1
+
